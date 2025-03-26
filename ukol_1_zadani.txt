@@ -34,3 +34,10 @@ Tyto bonusy jsou nepovinné a záleží čistě na tobě, zda se do nich pustí�
 - Uprav třídu Property na abstraktní třídu. Tato třída totiž nereprezentuje žádnou konkrétní nemovitost, nemovitost totiž musí být pozemek nebo stavba.
 - Přidej třídu TaxReport, která bude reprezentovat daňové přiznání. Třída bude mít atributy name (jméno osoby, která přiznání podává) a property_list, což je seznam nemovitostí, které jsou v přiznání uvedeny. Dále přidej metodu add_property(), která bude mít jako parametr objekt (nemovitost, která je součástí přiznání) a vloží ji do seznamu property_list. Dále přidej metodu calculate_tax(), která vypočte daň ze všech nemovitostí v seznamu property_list.
 - Podívej se na to, jak fungují tzv. enum třídy. Můžeš si přečíst například tento text. Zkus vytvořit třídu pro typy pozemků (zemědělský pozemek, stavební pozemek, les, zahrada) a použít ji ve třídě Estate. Použití této třídy zabrání, aby byl vytvořen pozemek s neexistujícím typem.
+
+
+
+# bonusy
+
+# - Ke třídě Estate a Residence přidej výpisy informací do metody __str__(). Např.: Zemědělský pozemek, lokalita Manětín (koeficient 1), 900 metrů čtverečních, daň 765 Kč.
+
